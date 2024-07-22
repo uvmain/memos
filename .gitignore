@@ -1,5 +1,5 @@
-pocketbase/pb_data/data.*
-pocketbase/pb_data/logs.*
+pocketbase/pb_data/data.db*
+pocketbase/pb_data/logs.db*
 
 # Logs
 logs
