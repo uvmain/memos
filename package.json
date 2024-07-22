@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "pb": "pocketbase serve --dir ./pocketbase/data --publicDir ./pocketbase/public",
+    "pb": "pocketbase serve --dir ./pocketbase/pb_data",
     "cspell": "cspell \"**/*.{txt,js,md}\""
   },
   "dependencies": {
