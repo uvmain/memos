@@ -1,3 +1,6 @@
+pocketbase/pb_data/data.*
+pocketbase/pb_data/logs.*
+
 # Logs
 logs
 *.log
@@ -22,5 +25,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-pocketbase/pb_data/*.db
