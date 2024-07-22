@@ -8,10 +8,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "pb": "pocketbase serve --dir ./pocketbase/pb_data",
-    "cspell": "cspell \"**/*.{txt,js,md}\""
+    "cspell": "cspell \"**/*.{txt,js,md}\"",
+    "start": "concurrently \"npm run pb\" \"npm run dev\""
   },
   "dependencies": {
     "@formkit/drag-and-drop": "^0.1.6",
+    "concurrently": "^8.2.2",
+    "pocketbase": "^0.21.3",
     "pocketbase-baron": "^0.0.2",
     "vue": "^3.4.31"
   },
