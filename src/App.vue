@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { useDragAndDrop } from "@formkit/drag-and-drop/vue"
-import { ref, onBeforeMount, watch } from "vue"
 import PocketBase from 'pocketbase'
-import Login from './components/Login.vue'
 
 let pb = new PocketBase('http://127.0.0.1:8090')
 

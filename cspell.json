@@ -8,7 +8,9 @@
   "allowCompoundWords": true,
   "language": "en-GB,en",
   "minWordLength": 4,
-  "words": [],
+  "words": [
+    "unplugin"
+  ],
   "ignoreWords": [],
   "import": []
 }
