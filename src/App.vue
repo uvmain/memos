@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useDragAndDrop } from "@formkit/drag-and-drop/vue"
 import PocketBase from 'pocketbase'
+import { ref, onBeforeMount, watch } from 'vue'
 
 let pb = new PocketBase('http://127.0.0.1:8090')
 
@@ -25,6 +26,7 @@ watch(notes, (newNotes) => {
 
 pb.authStore.onChange(() => {
   currentUser.value = pb.authStore.model
+  refreshMemos()
 }, true)
 
 onBeforeMount(async () => {
